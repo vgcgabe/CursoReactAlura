@@ -1,8 +1,13 @@
 import React from 'react';
+import FormularioCadastro from './components/formularioCadastro';
+import ListaDeNotas from './components/listaDeNotas';
 
 function App() {
   return (
-    <h1>Meu projeto React</h1>
+    <div>
+      <FormularioCadastro/>
+      <ListaDeNotas/>
+    </div>
   );
 }
 
